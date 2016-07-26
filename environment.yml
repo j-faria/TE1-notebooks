@@ -4,10 +4,10 @@ dependencies:
   - numpy
   - matplotlib
   - astropy
-  - emcee
   - dill
   - pip:
     - lmfit
+    - emcee
     - corner
     - batman-package
     - git+https://github.com/blaze/dask.git#egg=dask[complete]
