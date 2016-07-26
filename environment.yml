@@ -4,6 +4,7 @@ dependencies:
   - numpy
   - matplotlib
   - astropy
+  - emcee
   - dill
   - pip:
     - lmfit
