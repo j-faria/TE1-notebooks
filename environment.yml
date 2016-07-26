@@ -8,5 +8,6 @@ dependencies:
   - pip:
     - lmfit
     - corner
+    - batman-package
     - git+https://github.com/blaze/dask.git#egg=dask[complete]
     - git+https://github.com/dfm/python-bls.git
