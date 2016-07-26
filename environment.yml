@@ -3,7 +3,10 @@ name: example-environment
 dependencies:
   - numpy
   - matplotlib
+  - astropy
   - dill
   - pip:
+    - lmfit
+    - corner
     - git+https://github.com/blaze/dask.git#egg=dask[complete]
     - git+https://github.com/dfm/python-bls.git
