@@ -2,6 +2,7 @@ name: example-environment
 
 dependencies:
   - numpy
+  - scipy
   - matplotlib
   - astropy
   - dill
